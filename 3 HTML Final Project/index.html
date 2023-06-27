@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Codehelp</h1>
+        <h2>Contact Us Form</h2>
+    </header>
+
+    <section>
+        <form action="http://www.codehelp.in">
+            <label for="Name">Name</label>
+            <input type="text" name="Name" placeholder="Enter Your Name" required><br>
+
+            <label for="Email">Email</label>
+            <input type="email" name="Email" placeholder="Enter Your Email" required><br>
+
+            <label for="contact">Contact Number</label>
+            <input type="number" name="contact" placeholder="Enter Contact Number" required><br>
+
+            <label for="gender">Gender</label>
+            <select name="gender" id="genderselect">
+                <option value="Male">Male</option>
+                <option value="Female">Male</option>
+                <option value="No">Prefer not to say</option>
+            </select><br>
+
+            <label for="dob">Date Of Birth</label>
+            <input type="date" name="dob"><br>
+
+            <div>
+                <span>Rating</span>
+                    <input type="radio" name="rating" id="first" value="1">
+                    <label for="first">1</label>
+
+                    <input type="radio" name="rating" id="second" value="2">
+                    <label for="second">2</label>
+
+                    <input type="radio" name="rating" id="third" value="3">
+                    <label for="third">3</label>
+                    
+                    <input type="radio" name="rating" id="forth" value="4">
+                    <label for="forth">4</label>
+                    
+                    <input type="radio" name="rating" id="fifth" value="5">
+                    <label for="fifth">5</label>
+
+            </div>
+
+            <div>
+                <label for="msg">Enter Your Message</label><br>
+                <textarea name="message" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            </div>
+
+            <div>
+                <button type="submit">Send</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form><br>
+    </section>
+
+    <section>
+        <div>
+            <a href="https://www.youtube.com" target="_blank"><img src="images/Youtube.png" alt="Youtube.png" width="30px"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="images/Instagram.png" alt="Instagram.png" width="30px"></a>
+            <a href="https://www.telegram.org" target="_blank"><img src="images/Telegram.png" alt="Telegram.png" width="30px"></a>
+        </div>
+    </section>
+</body>
+</html>
